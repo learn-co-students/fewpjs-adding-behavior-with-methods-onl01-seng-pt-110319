@@ -2,12 +2,7 @@
 /*
 
 For each class, create the method speak.
-
-    For an instance of Cat, speak returns "name says meow!",
-    For an instance of Dog, speak returns "name says woof!"
     For an instance of Bird, speak returns conditional output. If the instance of Bird is male, speak returns "It's me! name, the parrot!". If it is not male, speak returns "name says squawk!".
-
-
 */
 class Cat{
   constructor(name, sex){
@@ -15,7 +10,7 @@ class Cat{
   this.sex = sex;
   }
   speak(){
-    return ``;
+    return `${this.name} says meow!`;
   }
 }
 
@@ -25,7 +20,7 @@ class Dog{
   this.sex = sex;
   }
   speak(){
-    return ``;
+    return `${this.name} says woof!`;
   }
 }
 class Bird{
@@ -34,6 +29,7 @@ class Bird{
   this.sex = sex;
   }
   speak(){
+    /* If the instance of Bird is male, speak returns "It's me! name, the parrot!". If it is not male, speak returns "name says squawk!".*/
     return ``;
   }
   
